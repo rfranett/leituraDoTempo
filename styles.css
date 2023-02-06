@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box font-family'Archivo', sans-serif;
+}
+
+body { 
+    display: flex;  /*para poder utilizar outras opçoes */
+    justify-content: center; /*centraliza*/
+    align-items: center;  /*centraliza*/
+    height: 100vh;/*vh=altura*/
+    width: 100vw;/*vw=largura*/
+
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.borda {
+    background-color: rgb(49, 44, 44); /*cor fundo*/
+    width: 96%;  /*largura*/
+    max-width: 450px; /*largura maxima*/
+    opacity: 0.7; /* transparencia */
+    border-radius: 25px;  /*cantos arredondados*/
+    padding: 22px;
+
+}
+
+input {
+    height: 55px;
+    border: none;/* borda do elemento*/
+    outline: none;/* borda seleciona o elemento*/
+    padding: 10px;/* espaçamento interno*/
+    border-radius: 25px;
+    font-size: 22px; /*tamanho das letras dentro da cx de texto*/
+    background-color: rgb(212, 212, 209);  /*cor do  fundo da cx*/
+    width: calc(90% - 90px)
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    cursor: pointer;
+
+}
+
+.lupa {
+    height: 50px;
+}
+
+h2 {
+    margin-top: 22px;
+    color: white;
+    font-size: 27px;/*tamanho da fonte*/
+}
+
+.umidade {
+    margin-top: 22px;
+    color: blanchedalmond;
+    font-size: 26px;
+}
+
+.tempo {
+    margin-top: 22px;
+    color: rgb(255, 255, 255);/* cor dos graus*/
+
+}
+
+.descric {
+    margin-top: 22px;
+    color: rgb(255, 255, 255);/* cor nuves */
+    text-transform: capitalize; /* deicha a primeira leta maiuscula*/
+
+}
