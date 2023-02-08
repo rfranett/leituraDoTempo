@@ -1,7 +1,7 @@
 // variaveis => um espaço na memoria do computador que quardamos algo = um numero ,um texto uma imagen
 // função => um trecho de codigo que  só é executado quando é chamado 
 
-let chave = "cebcd482eda57fa9a6714c1c2ba91885"
+let chave = "b6b8265e8a146f845c8def135ee9f1b4"
 // minha chave =b6b8265e8a146f845c8def135ee9f1b4
 
 function colocarNaTela(dados){
@@ -33,5 +33,4 @@ function ClikNoBotao(){
     let cidades = document.querySelector(".inputCidades").value 
 
     buscarCidade(cidades)
-
 }
